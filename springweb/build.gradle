@@ -10,5 +10,6 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'javax.servlet:jstl:1.2'
     providedRuntime 'org.apache.tomcat.embed:tomcat-embed-jasper'
 }
